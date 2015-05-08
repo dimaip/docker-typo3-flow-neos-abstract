@@ -1,7 +1,9 @@
 # TYPO3 Flow/Neos | Abstract Docker image
-[![Circle CI](https://circleci.com/gh/million12/docker-typo3-flow-neos-abstract/tree/master.png?style=badge)](https://circleci.com/gh/million12/docker-typo3-flow-neos-abstract/tree/master)
+[![Circle CI](https://circleci.com/gh/million12/docker-typo3-flow-neos-abstract/tree/php-70.svg?style=svg)](https://circleci.com/gh/million12/docker-typo3-flow-neos-abstract/tree/php-70)
 
 This is a Docker image [million12/typo3-flow-neos-abstract](https://registry.hub.docker.com/u/million12/typo3-flow-neos-abstract) which is **designed to easily create images with standard or customised installation** of [TYPO3 Flow](http://flow.typo3.org/) or [TYPO3 Neos](http://neos.typo3.org/). Your image can be build from  either the default "base" distribution or your own, perhaps private, repository. 
+
+**NOTE: this image is based on PHP 7.0. For other PHP versions, look in other branches.**
 
 For an **example of TYPO3 Flow image** built on top of this one, see [million12/typo3-flow](https://github.com/million12/docker-typo3-flow) repository.
 
